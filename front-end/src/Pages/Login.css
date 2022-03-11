@@ -1,0 +1,44 @@
+.input-form{
+    margin-top: 2vh;
+}
+.input-bar{
+    width: 20vw;
+    height: 6vh;
+    margin-top: 2vh;
+    border-radius: 0.5vw;
+    border: 1vw transparent;
+    font-size: 1vw;
+    background-color: #4800cd31;
+    font-family: 'FiraGo-Light';
+    color: aliceblue;
+    text-align: center;
+}
+
+::placeholder{
+    color: rgb(18, 0, 136);
+}
+
+.submit-button{
+    width: 8vw;
+    height: 4vh;
+    font-size: 1vw;
+    border-radius: 0.5vw;
+    border: 1vw transparent;
+    background-color: #0082CD;
+    color: white;
+    font-family: 'FiraGo-Light';
+    margin-top: 1vh;
+    transition: 0.2s;
+    user-select: none;
+    cursor: pointer;
+}
+
+.submit-button:hover{
+    transition: 0.2s;
+    background-color: rgba(62, 0, 143, 0.753);
+}
+
+.submit-link{
+    text-decoration: none;
+    color: aliceblue;
+}

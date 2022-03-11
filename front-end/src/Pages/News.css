@@ -1,0 +1,74 @@
+html{
+    width: 100%;
+    height: 140vh;
+    scrollbar-color: #0028c87e #370853bb;
+    scroll-behavior: smooth;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+  }
+
+body{
+    width: 100%;
+    height: 140vh;
+    background-image: linear-gradient(to right bottom, #101e83, #1a197b, #1f1372, #230d6a, #250762, #2d0761, #340760, #3a075f, #480f65, #56176c, #631f72, #702778);    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-behavior: smooth;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.news-container{
+  width: 85vw;
+  height:inherit;
+  margin-top: 5vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 10vw;
+}
+
+.news-card{
+  width: 20vw;
+  height: 38vh;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  border-top: 80px transparent;
+  place-items: center;
+  cursor: pointer;
+  transition: 0.2s;
+  filter: drop-shadow(10px 10px 10px rgba(119, 58, 119, 0.644));
+}
+
+.news-card:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.news-card-image{
+  width: 16vw;
+  height: 9vw;
+  border-radius: 1vw;
+  z-index: 2;
+}
+
+.news-card-text-content{
+  background-color: white;
+  border-radius: 1.4vw;
+  width: 20vw;
+  height: 12vh;
+  transform:translateY(-5vh);
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  align-items: center;
+  color: #380853;
+}
+
+.news-card-date{
+  font-family: 'FiraGo-Light';
+}
+
+.news-card-title{
+  font-family: 'FiraGo-Bold';
+}

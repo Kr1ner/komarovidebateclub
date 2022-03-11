@@ -1,0 +1,36 @@
+.aboutus-paragraph{
+    font-family: 'FiraGo-Light';
+    font-size: 1vw;
+    color:#00588b;
+    margin-top: 10vh;
+    text-indent: 10px;
+}
+
+.debateclubus{
+    transform: scale(0.3) translateY(-60vw) translateX(60vw);
+    border-radius: 4vw;
+    filter: drop-shadow(30px 30px 60px rgba(129, 69, 129, 0.788));
+}
+
+.first-letter{
+  font-size: 2vw;
+  line-height: 2vw;
+}
+
+@media screen and (max-width:1600px){
+    .debateclubus{
+        transform: scale(0.22) translateY(-90vw) translateX(60vw);
+    }
+}
+
+@media screen and (max-width:1500px){
+    .debateclubus{
+        transform: scale(0.21) translateY(-120vw) translateX(60vw);
+    }
+}
+
+@media screen and (max-width:1300px){
+    .debateclubus{
+        transform: scale(0.2) translateY(-130vw) translateX(60vw);
+    }
+}
