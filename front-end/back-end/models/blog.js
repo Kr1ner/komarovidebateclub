@@ -5,7 +5,7 @@ const blogTemplate = new mongoose.Schema({
         type: String,
         required: true
     },
-    username: {
+    paragraph: {
         type: String,
         required: true
     },

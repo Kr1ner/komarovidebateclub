@@ -1,4 +1,4 @@
-import React,{ Component } from 'react';
+import React,{ Component,useState,useEffect } from 'react';
 import animal from '../img/animal.png';
 import {Link} from 'react-router-dom';
 import './Login.css';
