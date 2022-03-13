@@ -4,9 +4,11 @@ import animal from '../img/animal.png';
 import tmpltimg from '../img/template.png';
 import Facebook from '../img/facebooklogo.png';
 import Youtube from '../img/youtubelogo.png';
+import { Link } from 'react-router-dom';
 
 function NewsCard({title,date,image}){
     return(
+        <Link to='/first'>
         <div className='news-card'>
             <img className='news-card-image' src={image}/>
             <div className='news-card-text-content'>
@@ -16,6 +18,7 @@ function NewsCard({title,date,image}){
                 </div>
             </div>
         </div>
+        </Link>
     )
 }
 

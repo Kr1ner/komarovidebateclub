@@ -9,6 +9,7 @@ import Register from './Pages/register';
 import AboutUs from './Pages/AboutUs';
 import Loginbtn from './img/Login-btn.png';
 import Userpanel from './Pages/userpanel';
+import First from './Pages/newspages/first';
 
 function NavLink({index,Linkto,setPage,title,page,source}){
   function pageToggle(){
@@ -65,6 +66,7 @@ function App() {
         <Route path="/Login" element={ <Login/> } />
         <Route path="/Register" element={ <Register/> } />
         <Route path="/Userpanel" element={ <Userpanel/> } />
+        <Route path="/first" element={<First/>}/>
       </Routes>
     </Router>
     </div>
