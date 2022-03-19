@@ -29,7 +29,7 @@ function News(){
                 <h1 className='HeaderOfPage'>სიახლეები</h1>
                 <div className='second-page-container'>
                     <div className='news-container'>
-                        <NewsCard image={tmpltimg} date="25.01.2022" title="დებატ კლუბის ოლიმპიადა იწყება!" />
+                        <NewsCard image={tmpltimg} date="20.03.2022" title="დებატ კლუბის ოლიმპიადა იწყება!" />
                     </div>
                 </div>
             </div>

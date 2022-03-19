@@ -29,8 +29,14 @@
     }
 }
 
+@media screen and (max-width:1400px){
+    .debateclubus{
+        transform: scale(0.2) translateY(-127vw) translateX(60vw);
+    }
+}
+
 @media screen and (max-width:1300px){
     .debateclubus{
-        transform: scale(0.2) translateY(-130vw) translateX(60vw);
+        transform: scale(0.19) translateY(-130vw) translateX(60vw);
     }
 }
