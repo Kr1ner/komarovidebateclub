@@ -29,6 +29,7 @@
 
 body{
   overflow: overlay;
+  overflow-x: none;
 }
 
 ::-webkit-scrollbar {

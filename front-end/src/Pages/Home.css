@@ -67,8 +67,8 @@ body{
 
 .leftfragment{
     position: absolute;
-    margin-left: -49%;
-    width: 15vw;
+    margin-left: -96%;
+    width: 20vw;
     height: auto;
     user-select: none;
     filter: drop-shadow(5px 5px 30px rgb(17, 0, 56))  ;
@@ -76,9 +76,9 @@ body{
 
 .rightfragment{
     position: absolute;
-    margin-left: 44.95%;
+    margin-left: 88%;
     margin-top: 15%;
-    width: 10vw;
+    width: 20vw;
     height: auto;
     user-select: none;
     filter: drop-shadow(5px 5px 30px rgb(17, 0, 56))  ;
